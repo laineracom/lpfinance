@@ -1,0 +1,340 @@
+
+
+
+/* -----------------------------------------
+Theme Dark CSS
+----------------------------------------- */
+html[theme="dark"] .switch-toggle {
+    .toggle-slider {
+        &::before {
+            content: "\f186" !important;
+        }
+    }
+}
+html[theme="light"] .switch-toggle {
+    .toggle-slider {
+        &::before {
+            content: "\f185" !important;
+        }
+    }
+}
+html[theme="dark"] {
+    body{
+        background: #1d1d1d;
+        color: #999999;
+    }
+    .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6,
+    :is(.banner-3, .banner-4, .banner-5) p.text-white,
+    .integration-area.integration-5 .content p
+    {
+        color: #f4f4f4 !important;
+    }
+    .pricing-area .item-single .content span, a,
+    .pricing-plan-area .item-single .price,
+    .pagination .page-numbers,
+    .faq-area .accordion-item .accordion-header .accordion-button.collapsed,
+    .header-area .main-navbar-area .main-responsive-nav .main-responsive-menu.mean-container a.meanmenu-reveal,
+    .header-area .main-navbar-area.is-sticky .main-nav .navbar .navbar-nav .nav-item a:not(.active),
+    .header-area .main-navbar-area .main-nav .navbar .navbar-nav .nav-item .dropdown-menu .nav-item a:not(.active),
+    .header-area.header-7 .main-navbar-area .main-nav .navbar .navbar-nav .nav-item a:not(.active),
+    .header-area .is-sticky .switch-toggle .toggle-slider::before,
+    .header-area.header-7 .switch-toggle .toggle-slider::before
+    {
+        color: #f4f4f4;
+    }
+
+    p,
+    ::placeholder,
+    .footer-area .copy-right-area,
+    .pricing-area.pricing-4 .section-title p, .pricing-area.pricing-5 .section-title p,
+    .mean-container .mean-nav ul li a,
+    .footer-area .footer-widget .footer-links li a,
+    .footer-area .footer-widget p,
+    .faq-area .accordion-item .accordion-body p,
+    .testimonial-area .slider-item .content .text,
+    .pricing-area.pricing-2 .section-title p,
+    .pricing-plan-area.pricing-plan-4 .item-single .label,
+    .pricing-plan-area.pricing-plan-2 .tab-switch .text,
+    .newsletter-area .newsletter-form .input-group,
+    .sidebar-widget-area .widget.widget-categories ul li,
+    .sidebar-widget-area .widget.widget-categories ul li a,
+    .coming-soon-area .coming-soon-box #timer .count span,
+    .sidebar-widget-area .widget.widget-tag ul li a,
+    .blog-details-area .item-single .content .blockquote p,
+    .services-area.services-2 .item-single p,
+    .sidebar-widget-area .widget.widget-post .article-item .content .time,
+    .newsletter-area .newsletter-form .input-group ::placeholder
+    {
+        color: #999999;
+    }
+
+    .page-title-area {
+        h1, a{
+            color: #1d1d1d !important;
+        }
+    }
+
+    
+    .banner-content p,
+    p.text-white,
+    .section-title p {
+        color: #999999 !important;
+    }
+
+    .mean-container .mean-nav ul li a,
+    .pricing-area .item-single,
+    .footer-area .copy-right-area,
+    .divider .icon,
+    .footer-area.footer-3 .footer-bottom,
+    .footer-area .footer-widget .social-link a,
+    .sidebar-widget-area .widget,
+    .blog-area.blog-with-sidebar .item-single,
+    .pagination .page-numbers,
+    .blog-details-area .item-single,
+    .sidebar-widget-area .widget.widget-tag ul li,
+    .coming-soon-area .coming-soon-box .newsletter-form .input-group,
+    .sidebar-widget-area .widget.widget-search .search-form .search-input,
+    .newsletter-area.newsletter-3 .newsletter-form .input-group,
+    .header-area .is-sticky .switch-toggle .toggle-slider::before,
+    .header-area.header-7 .switch-toggle .toggle-slider::before
+    {
+        border-color: #484848;
+    }
+
+    .form-control{
+        border-color: #656565;
+    }
+
+    .header-area .main-navbar-area .main-nav .navbar .navbar-nav .nav-item .dropdown-menu,
+    .newsletter-area .newsletter-form .input-group{
+        border: 1px solid #484848;
+    }
+    .newsletter-area.newsletter-bg{
+        border-bottom: 1px solid #484848;
+    }
+
+    .faq-area .accordion-item .accordion-header .accordion-button,
+    .header-area .main-navbar-area .main-nav .navbar .navbar-nav .nav-item .dropdown-menu::before{
+        border-bottom-color: #323232;
+    }
+
+    .bg-white{
+        background-color: #1d1d1d !important;
+    }
+
+    .pricing-area .item-single,
+    .blog-area.blog-2,
+    #preLoader,
+    .testimonial-area.testimonial-5,
+    .testimonial-area.testimonial-4 .owl-carousel .owl-dots .owl-dot,
+    .accordion-item,
+    .about-area.about-2,
+    .about-area.about-3,.contact-area.contact-6,
+    .newsletter-area.newsletter-3 .newsletter-form .input-group,
+    .feedback-area.feedback-4 .slider-item .slider-item-inner .content,
+    .feedback-area.feedback-3 .slider-item .slider-item-inner,
+    .pricing-plan-area.pricing-plan-3,
+    .blog-details-area .item-single,
+    .coming-soon-area .coming-soon-box .newsletter-form .input-group,
+    .coming-soon-area .coming-soon-box #timer .count,
+    .faq-area.faq-3 .accordion-item, .faq-area.faq-4 .accordion-item,
+    .pricing-plan-area .item-single{
+        background-color: #1d1d1d;
+    }
+
+    .owl-carousel .owl-dots .owl-dot,
+    .blog-area .item-single,
+    .features-area .item-single,
+    .header-area .main-navbar-area.is-sticky,
+    .mean-container .mean-nav,
+    .dropdown-menu,
+    .cta-area.cta-2,
+    .video-btn,
+    #preLoader .wrapper .loader,
+    .choose-area.choose-5,
+    .pricing-area.pricing-5,
+    .about-area,
+    .pricing-plan-area,
+    .blog-details-area .item-single .content .blockquote,
+    .home-banner-area.banner-7,
+    .faq-area.faq-3, .faq-area.faq-4,
+    .feedback-area .slider-item .slider-item-inner,
+    .divider .line,
+    .divider .icon,
+    .feedback-area.feedback-3,
+    .coming-soon-area .coming-soon-box,
+    .services-area .item-single,
+    .blog-details-area .comments .comment-reply .form-group .form-control,
+    .integration-area.integration-4 .images .image,
+    .feedback-area.feedback-4,.footer-area.footer-3,
+    .pricing-plan-area.pricing-plan-4 .item-single,
+    .main-features-area.main-features-3 .item-single,
+    .integration-area.integration-4 .item-single,
+    .sidebar-widget-area .widget,
+    .contact-area.contact-6 .item-single,
+    .about-area.about-3 .item-single,
+    .header-area .main-navbar-area .main-nav .navbar .navbar-nav .nav-item .dropdown-menu{
+        background-color: #323232;
+    }
+
+    .contact-area,
+    .cta-area.cta-4,
+    .newsletter-area.newsletter-2.newsletter-bg,
+    .pricing-area:not(.pricing-2, .pricing-3, .pricing-4, .pricing-5){
+        background: #323232;
+    }
+
+    .overview-area.overview-four,
+    .newsletter-area.newsletter-bg{
+        background: #1d1d1d;
+    }
+
+    .contact-3{
+        background-color: #1c2038;
+    }
+    .secondary-btn.secondary-btn-2{
+        background-color: #f4f4f4;
+    }
+    .feedback-2 .slider-item .slider-item-inner,
+    .newsletter-area .newsletter-form .input-group,
+    .services-area.services-2 .item-single .icon,
+    .pricing-plan-area.pricing-plan-4 .item-single .primary-btn,
+    .primary-btn.primary-btn-8{
+        background-color: transparent;
+    }
+
+    .features-area .section-gap::after{
+        background-image: url(../images/features-bg-dark.png);
+    }
+    .blog-area.blog-with-shape::after{
+        background-image: url(../images/blog-bg-dark.png);
+    }
+    .home-banner-area.banner-bg.banner-1{
+        background-image: url(../images/banner/banner-bg-1-dark.png);
+    }
+    .overview-area.overview-3{
+        background-image: url(../images/overview-bg-dark.png);
+    }
+    
+    .home-banner-area.banner-5 .bg-shape img{
+        content: url(../images/banner/wave-shape-1-dark.png);
+    }
+    .home-banner-area.banner-8 .bg-shape img{
+        content: url(../images/banner/wave-shape-2-dark.png);
+    }
+    .home-banner-area.banner-9 .bg-shape img{
+        content: url(../images/banner/wave-shape-3-dark.png);
+    }
+
+    .header-area .main-navbar-area .main-responsive-nav .main-responsive-menu.mean-container a.meanmenu-reveal span{
+        background-color: #f4f4f4;
+    }
+    .home-banner-area .banner-content .secondary-btn {
+        color: #323232 !important;
+    }
+
+    .secondary-btn {
+        color: #4f5eff;
+    }
+
+    .header-area{
+        .main-navbar-area{
+            .logo, .navbar-brand {
+                img{
+                    &:first-child {
+                        display: block !important;
+                    }
+                    &:last-child {
+                        display: none !important;
+                    }
+                }
+            }
+    
+            &.is-sticky{
+                .logo, .navbar-brand{
+                    img:first-child{
+                        display: block !important;
+                    }
+                }
+            }
+        }
+        &.header-9 {
+            .main-navbar-area{
+                .main-nav .navbar {
+                    .navbar-brand{
+                        img:first-child{
+                            display: none !important;
+                        }
+                        img:last-child{
+                            display: block !important;
+                        }
+                    }
+                }
+            }
+            .is-sticky {
+                .main-nav .navbar {
+                    .navbar-brand{
+                        img:first-child{
+                            display: block !important;
+                        }
+                        img:last-child{
+                            display: none !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .footer-area {
+        .logo, .navbar-brand {
+            img{
+                &:first-child {
+                    display: none;
+                }
+                &:last-child {
+                    display: block;
+                }
+            }
+        }
+    }
+
+    .choose-area.choose-2 .bg-image,
+    // .home-banner-area.banner-5 .bg-shape,
+    .testimonial-area.testimonial-4 .bg-image,
+    .home-banner-area.banner-2 .bg-shape.bg-shape-2{
+        opacity: .1;
+    }
+
+
+    #preLoader .wrapper .loader,
+    .feedback-area.feedback-4 .slider-item .slider-item-inner .content,
+    .pricing-plan-area.pricing-plan-4 .item-single,
+    .main-features-area.main-features-3 .item-single,
+    .contact-area.contact-6 .item-single,
+    .integration-area.integration-4 .images .image,
+    .newsletter-area.newsletter-3 .newsletter-form .input-group,
+    .blog-area .item-single{
+        box-shadow: none;
+    }
+
+
+    @media only screen and (max-width: 767.98px){
+        .integration-area .item-single,
+        .choose-area .item-single,
+        .main-features-area .item-single {
+            border-color: #323232;
+        }
+        .choose-area .item-single,
+        .main-features-area .item-single{
+            background-color: #323232;
+        }
+    }
+
+    @media only screen and (max-width: 1199px) {
+        .header-area .main-navbar-area .main-responsive-nav .switch-toggle .toggle-slider::before {
+            color: #f4f4f4;
+            border-color: #f4f4f4;
+        }
+    }
+}
